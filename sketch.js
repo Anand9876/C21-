@@ -16,7 +16,7 @@ function draw() {
   background(0); 
   
 
-  if(hascollided(bullet,wall)) 
+  if(hascollided()) 
   {
 		bullet.velocityX=0;
 		var damage=0.5*weight*speed*speed/thickness*thickness*thickness;
@@ -29,6 +29,6 @@ function draw() {
 
   }
   bullet.velocityX=speed;
-		hascollided();
+		
   drawSprites();
 }
