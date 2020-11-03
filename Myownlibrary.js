@@ -1,4 +1,4 @@
-function hascollided(lbullet,lwall){
+function hascollided(bullet,wall){
 bulletrightedge=bullet.x+bullet.width;
 wallrightedge=wall.x
 if(bulletrightedge>=wallrightedge){
